@@ -30,7 +30,7 @@ label {
     margin-top: 20px;
 }
 
-input#resultado {
+#resultado {
     width: 100%;
     background: #e9c600;
     border: 1px solid #7e6b00;
@@ -39,7 +39,7 @@ input#resultado {
     color: #000;
 }
 
-input#resultado:hover {
+#resultado:hover {
     color: #000;
     background: #fcd600;
     border: 1px solid #c9ab00;
