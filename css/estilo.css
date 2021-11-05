@@ -1,0 +1,85 @@
+body {
+    font: 14px Helvetica, Arial, sans-serif;
+    background: url(../img/bg.png);
+}
+
+.caixa {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.conteudo {
+    background: url(../img/bg-app.png) no-repeat;
+    padding: 30px;
+    height: 600px;
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+label {
+    color: #fff;
+}
+
+.resultado {
+    background: #fff;
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+input#resultado {
+    width: 100%;
+    background: #e9c600;
+    border: 1px solid #7e6b00;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+input#resultado:hover {
+    color: #000;
+    background: #fcd600;
+    border: 1px solid #c9ab00;
+}
+
+/* Tipografia
+*************************************************/
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: bold;
+    background: #192952;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+/* Responsividade
+*************************************************/
+@media (max-width: 575.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
